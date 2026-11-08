@@ -1,0 +1,168 @@
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f5fc;
+    color: #29243a;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background-color: #251b3d;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+header p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #e1d9f5;
+    font-size: 17px;
+}
+
+/* Navigation */
+nav {
+    background-color: #ffffff;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+nav a {
+    color: #6b46c1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a78bfa;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* Sections and article */
+section,
+article {
+    background-color: #ffffff;
+    padding: 35px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(37, 27, 61, 0.06);
+}
+
+section h2,
+article h2 {
+    color: #6b46c1;
+    margin-bottom: 18px;
+    font-size: 25px;
+}
+
+section p,
+article p {
+    margin-bottom: 15px;
+}
+
+/* Profile image */
+section img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 25px auto 5px;
+    border: 5px solid #eee7ff;
+}
+
+/* Lists */
+ul,
+ol {
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Skills */
+#skills div {
+    background-color: #f7f3ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+#skills span {
+    color: #6b46c1;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #251b3d;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+footer p {
+    margin-bottom: 12px;
+}
+
+footer a {
+    display: inline-block;
+    color: #d8c7ff;
+    text-decoration: none;
+    margin: 5px 12px;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header {
+        padding: 55px 20px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px 8px;
+    }
+
+    section,
+    article {
+        padding: 25px 20px;
+    }
+
+    main {
+        margin: 30px auto;
+    }
+}
